@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+
+<body>
+
+    <!-- forms are widely used and action is used to give the path where to submit the data -->
+    <form action="backend.php">
+        <div>NAME: <input type="text" name="name" placeholder="ENTER YOUR NAME"></div>
+
+        <br>
+
+        <div> ROLE: <input type="text" name="role" placeholder="ENTER YOUR ROLE"></div>
+
+        <br>
+
+        <div> DOB: <input type="date" name="dob"></div>
+
+        <br>
+
+        <div> BONUS: <input type="number" name="BONUS"></div>
+
+        <br>
+
+        <div> age: 18<input type="checkbox" name="age" checked></div>
+
+        <br>
+        <div> GENDER:
+            <label for="gender">MALE</label>
+            <input type="radio" name="GENDER" id="gender">
+
+            <label for="FEMALE">FEMALE</label>
+            <input type="radio" name="GENDER" id="FEMALE">
+
+            <label for="gender">OTHER</label>
+            <input type="radio" name="GENDER" id="gender">
+        </div>
+
+        <br>
+
+        <div> CAR:
+            <label for="CAR">CAR</label>
+            <select name="mycar" id="CAR">
+                <option value="ind">indica</option>
+                <option value="swi">swift</option>
+                <option value="fort" selected>fortuner</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            FEEDBACK:<br>
+            <textarea name="FEEDBACK" rows="10" cols="30">enter your feedback</textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset now">
+        </div>
+    </form>
+
+
+</body>
+
+</html>
