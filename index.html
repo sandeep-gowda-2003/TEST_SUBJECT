@@ -4,68 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORMS</title>
+    <title>GYM</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="template">
+        <div class="header">
+            
+            <nav class="navbar" class="toggle">
+                <ul id="navigation">
+                    <li><a href='#' target="_blank">Home</a></li>
+                    <li><a href='#' target="_blank">About</a></li>
+                    <li><a href='#' target="_blank">Personal Training</a></li>
+                    <li><a href='#' target="_blank">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div id="submenu">
+                <nav class="toggle">
+                    <ul id="menu">
+                        <li><a href='#' target="_blank">Home</a></li>
+                        <li><a href='#' target="_blank">About</a></li>
+                        <li><a href='#' target="_blank">Personal Training</a></li>
+                        <li><a href='#' target="_blank">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAOVBMVEX///8AAACUlJTu7u7y8vIXFxcSEhKlpaXi4uKGhoYbGxuRkZEICAj29vbGxsYPDw+amprAwMDPz88wnIHUAAABAUlEQVR4nO3aUVKDQBBF0QSUqAOBZP+LdQHaP12W3UXOWcG7f8wwlwsAAAAAAAAAAHBi9zGmhsa4J2Km697SdUrFNCWmenRETPXoiJjq0REx1aMjYqpHR8RUj46I2d9b2o9EzL36GBbJHM62t6a2RAwAAAAA/JH5o6k5EXOsS/VN7G+WNXM9O6ovyCMjEXOuvwDVoyNiqkdHxFSPjoipHh0RUz06IqZ6dOTlY0711XzsPc8zqecmXmgAAAAAwE/b3FTm3uzx2dQjETOtS0vry/8FEPMfxFSPjoipHh0RUz06IqZ6dERM9eiImOWrpSUT87w19UzEAAAAAAAAAADAuX0D4xZOR+cuv5QAAAAASUVORK5CYII="
+                    alt="" id="submenu_logo">
+            </div>
 
-    <!-- forms are widely used and action is used to give the path where to submit the data -->
-    <form action="backend.php">
-        <div>NAME: <input type="text" name="name" placeholder="ENTER YOUR NAME"></div>
-
-        <br>
-
-        <div> ROLE: <input type="text" name="role" placeholder="ENTER YOUR ROLE"></div>
-
-        <br>
-
-        <div> DOB: <input type="date" name="dob"></div>
-
-        <br>
-
-        <div> BONUS: <input type="number" name="BONUS"></div>
-
-        <br>
-
-        <div> age: 18<input type="checkbox" name="age" checked></div>
-
-        <br>
-        <div> GENDER:
-            <label for="gender">MALE</label>
-            <input type="radio" name="GENDER" id="gender">
-
-            <label for="FEMALE">FEMALE</label>
-            <input type="radio" name="GENDER" id="FEMALE">
-
-            <label for="gender">OTHER</label>
-            <input type="radio" name="GENDER" id="gender">
         </div>
 
-        <br>
 
-        <div> CAR:
-            <label for="CAR">CAR</label>
-            <select name="mycar" id="CAR">
-                <option value="ind">indica</option>
-                <option value="swi">swift</option>
-                <option value="fort" selected>fortuner</option>
-            </select>
+
+        <div class="section">
+
         </div>
-
-        <br>
-
-        <div>
-            FEEDBACK:<br>
-            <textarea name="FEEDBACK" rows="10" cols="30">enter your feedback</textarea>
-        </div>
-
-        <div>
-            <input type="submit" value="submit now">
-            <input type="reset" value="reset now">
-        </div>
-    </form>
-
-
+        <div class="footer"></div>
+    </div>
 </body>
 
 </html>
